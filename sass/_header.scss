@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$green : rgb(0, 228, 38);
+
+header{
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo{
+        color: #ffffff;
+        font-size: 1.3em;
+    }
+}

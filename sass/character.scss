@@ -1,0 +1,32 @@
+@import "header";
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.2)), url("../img/character-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .character {
+        border: 5px solid $green;
+        width: 500px;
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+}
